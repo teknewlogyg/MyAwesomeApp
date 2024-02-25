@@ -30,9 +30,9 @@ pipeline {
                     credentialsId: '366da518-c536-48ab-8c16-43abd32a8e63',
                     artifacts: [
                         [
-                            artifactId: 'MyWebApp',
+                            artifactId: 'MyAwesomeApp',
                             classifier: '',
-                            file: 'MyWebApp/target/MyWebApp.war',
+                            file: 'MyAwesomeApp/target/MyAwesomeeApp.war',
                             type: 'war'
                         ]
                     ]
