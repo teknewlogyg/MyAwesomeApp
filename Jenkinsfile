@@ -27,7 +27,7 @@ pipeline {
                     groupId: 'myGroupId',
                     version: '1.0-SNAPSHOT',
                     repository: 'maven-snapshots',
-                    credentialsId: '366da518-c536-48ab-8c16-43abd32a8e63',
+                    credentialsId: '8110c5e3-8942-4b43-ab9e-a301e993d18c',
                     artifacts: [
                         [
                             artifactId: 'MyAwesomeApp',
