@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean install -f MyWebApp/pom.xml'
+                sh 'mvn clean install -f MyAwesomeApp/pom.xml'
             }
         }
         
@@ -32,7 +32,7 @@ pipeline {
                         [
                             artifactId: 'MyAwesomeApp',
                             classifier: '',
-                            file: 'MyAwesomeApp/target/MyAwesomeeApp.war',
+                            file: 'MyAwesomeApp/target/MyAwesomeApp.war',
                             type: 'war'
                         ]
                     ]
